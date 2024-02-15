@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../products_style.css">
+
+    <title>Field_Sport Training Template</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="../index.html#home" style="text-decoration: none;">
+                <div class="logo"
+                  style="color: #ffcc00; font-family: sans-serif; font-size: xx-large; padding: 10px; text-decoration: none;">
+                  AD PERFORMANCE
+                </div>
+              </a>
+
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#about">About Me</a></li>
+                <li><a href="../index.html#services">Services</a></li>
+                <li><a href="../index.html#price">Prices</a></li>
+                <li><a href="../index.html#products">Products</a></li>
+                <li><a href="../index.html#blog">Blog</a></li>
+                <li><a href="../index.html#review-blog">Reviews</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li class="contact-icons">
+                    <a href="https://wa.me/+23057090050" target="_blank" class="contact-icon"><img
+                            src="https://cdn-cms-s.f-static.net/files/icons/socialNetworksBrands/whatsApp-icon.png?v=y83520"
+                            alt="WhatsApp"></a>
+                    <a href="mailto:adrienmerle@hotmail.fr" class="contact-icon"><img src="../Images/envelope.svg"
+                            alt="Email"></a>
+
+                    <a href="#" id="cartIcon" onclick="toggleCartPopup()" class="contact-icon">
+                        <img src="../Images/shopping-cart.svg" alt="Shopping Cart">
+                    </a>
+
+                    <span id="cartQuantity">0</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div id="cartPopup" class="cart-popup">
+        <!-- Inside your cart popup content -->
+        <h2 style="text-align: center; color: #ffcc00; background-color: #333; padding: 40px; margin-top: -1px;">
+            Shopping Cart</h2>
+        <div id="cartPopupContent" class="cart-popup-content">
+            <!-- Cart content goes here -->
+
+            <p id="cartItemsText">Your Cart is Empty</p>
+        </div>
+
+        <div class="cart-popup-buttons">
+            <button class="close-button" onclick="toggleCartPopup()">Close</button>
+            <button class="clear-cart" onclick="clearCart()">Clear Cart</button>
+            <button class="checkout" onclick="checkout()">Checkout</button>
+        </div>
+    </div>
+    
+
+    <section id="products">
+        <h2 class="product-title" style="font-family: 'Bebas Neue', sans-serif; font-size: xx-large;">Products</h2>
+        <section id="goToFieldSportTemplate">
+            <button onclick="goToHypertrophy()"><span>&larr;</span>Hypertrophy</button>
+            <button onclick="goToHomePage()">Home <span>&rarr;</span></button>
+        </section>
+        <div class="product-items">
+
+            <!-- Product 1 -->
+<div class="product-part" onclick="openModal('product 7')">
+    <!-- <div class="product-overlay">6 Products</div> -->
+    <img src="../Images/annual plan template.jpg" alt="Product 7" class="product-image">
+    <div class="product-details">
+        <h3>ANNUAL PLAN TEMPLATE FOR FIELD-SPORTS</h3>
+        <p>(CUSTOMIZABLE)</p>
+        <p style="position: absolute; bottom: 0; right: 0; background-color: rgba(255, 255, 255, 0.8); padding: 15px; border-radius: 5px;color: red; font-weight: 1000;"> Rs500</p>
+    </div>
+</div>
+
+            <!-- Product 2 -->
+            <div class="product-part" onclick="openModal('product 8')">
+
+                <!-- <div class="product-overlay">6 Products</div> -->
+                <img src="../Images/soccer speed power & strengths.jpg" alt="Product 8" class="product-image">
+                <div class="product-details">
+                    <h3>SOCCER SPEED, POWER & STRENGTH TRAINING TEMPLATE </h3>
+                    <p>(12 WEEKS, 2-DAYS PER WEEK)</p>
+                    <p style="position: absolute; bottom: 0; right: 0; background-color: rgba(255, 255, 255, 0.8); padding: 15px; border-radius: 5px;color: red; font-weight: 1000;"> Rs900</p>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-part" onclick="openModal('product 9')">
+
+                <!-- <div class="product-overlay">6 Products</div> -->
+                <img src="../Images/speed, power & strength.png" alt="Product 9" class="product-image">
+                <div class="product-details">
+                    <h3>SPEED, POWER & STRENGTH FOR FIELD-SPORTS TEMPLATE </h3>
+                    <p>(12-WEEKS, 4 DAYS PER WEEK)</p>
+                    <p style="position: absolute; bottom: 0; right: 0; background-color: rgba(255, 255, 255, 0.8); padding: 15px; border-radius: 5px;color: red; font-weight: 1000;"> Rs1100</p>
+                </div>
+            </div>
+           
+    
+            <!-- Add more products as needed -->
+    
+        </div>
+    </section>
+    
+    <!-- Popup for Products -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('productModal')">&times;</span>
+          <div class="popup-container">
+            <img class="popup-image" id="modalImage" src="" alt="Product Image">
+            <div id="modalContent" class="popup-details"></div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- !FOOTER SECTION -->
+  <div class="footer-line">
+    <footer>
+
+      <div class="footer-content">
+        <div class="footer-logo">AD PERFORMANCE</div>
+      </div>
+    </footer>
+  </div>
+      
+    
+<!-- Add more sections or content as needed -->
+
+
+
+
+<script src="../products_script.js"></script>
+
+</body>
+</html>
