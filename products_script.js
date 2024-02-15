@@ -73,7 +73,7 @@ function openModal(productName) {
           <p>Price: ₨1200</p>
           <button class="addToCart" onclick="addToCart('product 1')">Add to Cart</button>
       `;
-        modalImage.src = "/Images/full_body.jpg"; 
+        modalImage.src = "Images/full_body.jpg"; 
         break;
   
         case "product 2":
@@ -108,7 +108,7 @@ function openModal(productName) {
           <p>Price: ₨1200</p>
           <button class="addToCart" onclick="addToCart('product 2')">Add to Cart</button>
       `;
-        modalImage.src = "/Images/upper-lower-hyper.jpg"; 
+        modalImage.src = "Images/upper-lower-hyper.jpg"; 
         break;
   
         case "product 3":
@@ -151,7 +151,7 @@ function openModal(productName) {
           <p>Price: ₨1200</p>
           <button class="addToCart" onclick="addToCart('product 3')">Add to Cart</button>
       `;
-        modalImage.src = "/Images/upper-lower-shoulder.jpg"; 
+        modalImage.src = "Images/upper-lower-shoulder.jpg"; 
         break;
   
         case "product 4":
@@ -194,7 +194,7 @@ function openModal(productName) {
           <p>Price: ₨1200</p>
           <button class="addToCart" onclick="addToCart('product 4')">Add to Cart</button>
       `;
-        modalImage.src = "/Images/push-pull-legs.jpg"; 
+        modalImage.src = "Images/push-pull-legs.jpg"; 
         break;
   
         case "product 5":
@@ -241,7 +241,7 @@ function openModal(productName) {
                   <p>Price: ₨1200</p>
                   <button class="addToCart" onclick="addToCart('product 5')">Add to Cart</button>
               `;
-        modalImage.src = "/Images/upper-upper-lower.jpg"; 
+        modalImage.src = "Images/upper-upper-lower.jpg"; 
         break;
   
         case "product 6":
@@ -262,7 +262,7 @@ function openModal(productName) {
           <button class="addToCart" onclick="addToCart('product 6')">Add to Cart</button>
       `;
       
-        modalImage.src = "/Images/hypertrophy-program-creator.jpg"; 
+        modalImage.src = "Images/hypertrophy-program-creator.jpg"; 
         break;
 
         case "product 7":
@@ -280,7 +280,7 @@ function openModal(productName) {
         <p>Price: ₨500</p>
         <button class="addToCart" onclick="addToCart('product 7')">Add to Cart</button>
     `;
-        modalImage.src = "/Images/annual plan template.jpg"; 
+        modalImage.src = "Images/annual plan template.jpg"; 
         break;
   
         case "product 8":
@@ -305,7 +305,7 @@ function openModal(productName) {
         <p>Price: ₨900</p>
         <button class="addToCart" onclick="addToCart('product 8')">Add to Cart</button>
     `;
-        modalImage.src = "/Images/soccer speed power & strengths.jpg"; 
+        modalImage.src = "Images/soccer speed power & strengths.jpg"; 
         break;
   
         case "product 9":
@@ -329,7 +329,7 @@ function openModal(productName) {
         <p>Price: ₨1100</p>
         <button class="addToCart" onclick="addToCart('product 9')">Add to Cart</button>
     `;
-        modalImage.src = "/Images/speed, power & strength.png"; 
+        modalImage.src = "Images/speed, power & strength.png"; 
         break;
   
        
