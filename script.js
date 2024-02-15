@@ -35,7 +35,7 @@ function showPopup(serviceId) {
                     <li>Flexibility to accommodate your schedule</li>
                 </ul>
             `;
-      image.src = "/Images/video_consultation.jpg";
+      image.src = "Images/video_consultation.jpg";
       break;
     case "service2":
       title.innerText = "Online Coaching";
@@ -48,7 +48,7 @@ function showPopup(serviceId) {
                     <li>Support to kickstart your fitness journey or reach new heights</li>
                 </ul>
             `;
-      image.src = "/Images/online_coaching.jpg";
+      image.src = "Images/online_coaching.jpg";
       break;
     case "service3":
       title.innerText = "Group Fitness Class";
@@ -60,7 +60,7 @@ function showPopup(serviceId) {
                     <li>Workout with others and stay motivated</li>
                 </ul>
             `;
-      image.src = "/Images/group_fitness_class.jpg";
+      image.src = "Images/group_fitness_class.jpg";
       break;
     case "service4":
       title.innerText = "Pre-Written Training Program";
@@ -72,7 +72,7 @@ function showPopup(serviceId) {
                     <li>Option to fully customize your program</li>
                 </ul>
             `;
-      image.src = "/Images/pre_written_training_program.jpg";
+      image.src = "Images/pre_written_training_program.jpg";
       break;
     case "service5":
       title.innerText = "Home Coaching";
@@ -84,7 +84,7 @@ function showPopup(serviceId) {
                     <li>Convenience and comfort as you pursue your fitness goals</li>
                 </ul>
             `;
-      image.src = "/Images/home_coaching.jpg";
+      image.src = "Images/home_coaching.jpg";
       break;
     // Add more cases for additional services as needed
 
